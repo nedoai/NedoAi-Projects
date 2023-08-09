@@ -3,9 +3,9 @@ from transformers import BertTokenizer
 from nltk.stem import SnowballStemmer
 import numpy as np
 
-model = SentenceTransformer(r'C:\Users\Bebrus\Desktop\AICombo\DeepPavlov_rubert-base-cased')
+model = SentenceTransformer('DeepPavlov/rubert-base-cased')
 stemmer = SnowballStemmer("russian")
-tokenizer = BertTokenizer.from_pretrained(r'C:\Users\Bebrus\Desktop\AICombo\DeepPavlov_rubert-base-cased')
+tokenizer = BertTokenizer.from_pretrained('DeepPavlov/rubert-base-cased')
 
 #Upload your answer options
 with open(r"Poll-Gen\data.txt", "r", encoding="utf-8") as file:
