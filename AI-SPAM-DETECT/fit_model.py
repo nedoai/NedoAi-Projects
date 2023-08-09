@@ -11,7 +11,6 @@ train_labels = np.ones(len(train_data))
 
 vectorizer = TfidfVectorizer()
 
-# Преобразование текстовых данных в TF-IDF векторы
 train_vectors = vectorizer.fit_transform(train_data)
 train_vectors_dense = train_vectors.toarray()
 
