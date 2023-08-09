@@ -11,3 +11,5 @@ This is a small project developed by a single developer - me. I haven't been in 
 
 :3
 ---
+
+# Check 'master' branch!
